@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+
+<header>
+<nav class="navbar navbar-expand-lg bg-info">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">FirstWeb</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#gallery">Gallery</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#signinup">Sign up</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="p-5 text-center bg-image headerbg">
+    <div class="mask">
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white">
+          <h1 class="mb-4">My First Page</h1>
+          <h4 class="mb-4">Otaku</h4>
+          <a  class="btn btn-outline-primary btn-lg" href="#signinup" role="button"
+          >Join</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="gallery" class="py-4">
+<div class="container text-center">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 ">
+
+    <div class="col">
+       <div class="card" id="gallery">
+      <img src="pictures/rimuru-tempest-3840x2160-19529.jpg" />
+      <div class="card-body">
+        <h5 class="card-title">Rimiru Tempest</h5>
+      </div>
+    </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+      <img src="pictures/farlight.jfif"/>
+      <div class="card-body">
+        <h5 class="card-title">Farlight</h5>
+      </div>
+    </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+      <img src="pictures/ichigo.png" />
+      <div class="card-body">
+        <h5 class="card-title">Ichigo</h5>
+      </div>
+    </div>
+    </div>
+
+    <div class="col">
+     <div class="card">
+      <img src="pictures/gachiakuta-3840x2160-22842.jpg" />
+      <div class="card-body">
+        <h5 class="card-title">Gachiakuta</h5>
+      </div>
+    </div>
+    </div>
+
+   <div class="col">
+      <div class="card">
+      <img src="pictures/tshima.jpeg" />
+      <div class="card-body">
+        <h5 class="card-title">Ghost Of Tsushima</h5>
+      </div>
+   </div>
+   </div>
+
+   <div class="col">
+      <div class="card">
+      <img src="pictures/a-plague-tale-requiem-how-long-beat.jpg" />
+      <div class="card-body">
+        <h5 class="card-title">Plague-tale</h5>
+      </div>
+   </div>
+   </div>
+
+   <div class="col">
+      <div class="card">
+      <img src="pictures/clair Obscur expedition33.avif" />
+      <div class="card-body">
+        <h5 class="card-title">Clair Obscur expedition33 </h5>
+      </div>
+   </div>
+   </div>
+
+   <div class="col">
+      <div class="card">
+      <img src="pictures/japan.jpg" />
+      <div class="card-body">
+        <h5 class="card-title">Japan</h5>
+      </div>
+   </div>
+   </div>
+    
+  </div>
+</div>
+
+</section>
+
+<section id="signinup" class="py-5">
+   <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-6">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h2 class="text-center">Sign up</h2>
+                
+
+                <form>
+                  <div class="mb-3">
+                    <label for="name" class="form-label">First Name</label>
+                    <input id="name" class="form-control" type="text" placeholder="Your name" />
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Last Name</label>
+                    <input id="name" class="form-control" type="text" placeholder="Your name" />
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input id="email" class="form-control" type="email" placeholder="you@example.com" />
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input id="password" class="form-control" type="password" placeholder="Your password" />
+                  </div>
+
+                  <button class="btn btn-success w-100" type="submit">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+
+ <footer class="bg-light">
+  <div class="text-center p-3" style="background-color: rgba(51, 118, 180, 0.2)">
+      Kowlessur Navish 2026
+  </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> 
+</body>
+</html>
